@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = "/"
+const baseUrl = "";
 
 const createUrl = (url) => {
   const request = axios.post(`${baseUrl}/new`, {url: url});
